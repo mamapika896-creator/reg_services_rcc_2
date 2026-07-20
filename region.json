@@ -1,0 +1,402 @@
+{
+  "channels": [
+    {
+      "id": "channel-gubernator",
+      "name": "Дмитрий Викторович Демешин",
+      "description": "Официальный канал губернатора Хабаровского края.",
+      "icon": "gubernator_channel.png",
+      "type": "channel",
+      "owner": "Правительство Хабаровского края",
+      "link": "https://max.ru/demeshin27",
+      "category_ids": ["government"]
+    },
+    {
+      "id": "channel-mfc",
+      "name": "МФЦ Хабаровского края",
+      "description": "Официальный канал многофункционального центра предоставления государственных и муниципальных услуг.",
+      "icon": "mfc_channel.png",
+      "type": "channel",
+      "owner": "МФЦ Хабаровского края",
+      "link": "https://max.ru/mfc27",
+      "category_ids": ["social", "housing", "government", "digital"]
+    },
+    {
+      "id": "khabarovsk-channel",
+      "name": "Хабаровск Новости | Хабарейро",
+      "description": "Новостной канал для жителей Хабаровска.",
+      "icon": "khabareiro.png",
+      "type": "channel",
+      "owner": "-",
+      "link": "https://max.ru/habareiro",
+      "tags": ["новости", "власть", "регион", "анонсы"]
+    },
+    {
+      "id": "khabarovsk-channel-2",
+      "name": "Хабаровск | Новости",
+      "description": "Новостной канал для жителей Хабаровска.",
+      "icon": "khab_news.png",
+      "type": "channel",
+      "owner": "-",
+      "link": "https://max.ru/khv_news",
+      "tags": ["новости", "власть", "регион", "анонсы"]
+    },
+    {
+      "id": "mchs-region",
+      "name": "МЧС Хабаровского края",
+      "description": "Официальный канал экстренных уведомлений и рекомендаций при чрезвычайных ситуациях, погодных предупреждениях и других рисках.",
+      "icon": "mchs.png",
+      "type": "channel",
+      "owner": "МЧС Хабаровского края",
+      "link": "https://max.ru/id2721120700_gos",
+      "tags": ["МЧС", "чрезвычайная ситуация", "пожар"],
+      "category_ids": ["incidents"],
+      "popular": true,
+      "federal": true
+    },
+    {
+      "id": "water-online",
+      "name": "Водоканал Хабаровск",
+      "description": "Канал предоставляет информацию о плановых и аварийных отключениях воды, а также других новостях.",
+      "icon": "vodokanal.png",
+      "type": "channel",
+      "owner": "МУП Водоканал города Хабаровска",
+      "link": "https://max.ru/id2700001300_gos",
+      "tags": ["вода", "водоканал", "отключение"],
+      "category_ids": ["housing"]
+    },
+    {
+      "id": "road-transport",
+      "name": "Минтранс 27",
+      "description": "Канал с информацией о дорогах и транспорте.",
+      "icon": "mintrans.png",
+      "type": "channel",
+      "owner": "Министерство транспорта Хабаровского края",
+      "link": "https://max.ru/mintrans27",
+      "tags": ["дороги", "транспорт"],
+      "category_ids": ["transport", "incidents"]
+    },
+    {
+      "id": "ministerstvo-cifrovogo-razvitiya",
+      "name": "Минцифры Хабаровского края",
+      "description": "Официальный канал министерства цифрового развития Хабаровского края",
+      "icon": "mincifri.png",
+      "type": "channel",
+      "owner": "Минцифры Хабаровского края",
+      "link": "https://max.ru/id2721194589_gos",
+      "category_ids": ["digital"]
+    }
+  ],
+  "categories": [
+    {
+      "id": "housing",
+      "name": "Дом и ЖКХ",
+      "icon": "housing.png",
+      "show_on_main": true
+    },
+    {
+      "id": "family",
+      "name": "Семья и дети",
+      "icon": "family.png",
+      "show_on_main": true
+    },
+    {
+      "id": "transport",
+      "name": "Транспорт",
+      "icon": "transport.png",
+      "show_on_main": true
+    },
+    { "id": "health", "name": "Здоровье", "icon": "health.png", "show_on_main": true },
+    { "id": "culture", "name": "Культура", "icon": "culture.png", "show_on_main": true },
+    { "id": "education", "name": "Образование" },
+    { "id": "social", "name": "Соцподдержка" },
+    { "id": "ecology", "name": "Экология" },
+    { "id": "incidents", "name": "Происшествия" },
+    { "id": "business", "name": "Бизнес" },
+    { "id": "employment", "name": "Работа и занятость" },
+    { "id": "sport", "name": "Спорт" },
+    { "id": "tourism", "name": "Туризм" },
+    { "id": "government", "name": "Государственные услуги" },
+    { "id": "digital", "name": "Цифровые сервисы" },
+    { "id": "strateg_sessii", "name": "Стратегические сессии" }
+  ],
+  "services": [
+    {
+      "id": "bot-gubernator",
+      "name": "'Прямая линия' с Дмитрием Демешиным",
+      "description": "Официальный канал губернатора Хабаровского края.",
+      "icon": "gubernator.png",
+      "type": "chatbot",
+      "owner": "Правительство Хабаровского края",
+      "link": "https://max.ru/khv_citizen_bot",
+      "tags": ["губернатор", "новости", "власть"],
+      "category_ids": ["government"]
+    },
+    {
+      "id": "bot-mfc",
+      "name": "Чат-бот МФЦ Хабаровского края",
+      "description": "Официальный канал МФЦ Хабаровского края.",
+      "icon": "mfc_bot.png",
+      "type": "chatbot",
+      "owner": "Правительство Хабаровского края",
+      "link": "https://max.ru/mfc_khabkrai_max_bot",
+      "category_ids": ["government", "digital"]
+    },
+    {
+      "id": "bot-ministerstvo",
+      "name": "Помощник Министерства Имущества | Хабаровск",
+      "description": "Бот для предоставления ответов на частые вопросы, ознакомления услуг и получению информации/ссылок официальных источников.",
+      "icon": "min_imushestvo.png",
+      "type": "chatbot",
+      "owner": "Министерства Имущества Хабаровского края",
+      "link": "https://max.ru/min_imushestvo_khabarovsky_kray_bot",
+      "category_ids": ["social", "housing"]
+    },
+    {
+      "id": "bot-soc_ministerstvo",
+      "name": "СоцПоддержка27",
+      "description": "Цифровой помощник предоставляет информацию о мерах поддержки, льготах, выплатах, справках, документах, карте жителя Хабаровского края",
+      "icon": "soc_zashita.png",
+      "type": "chatbot",
+      "owner": "Министерство социальной защиты по Хабаровскому краю",
+      "link": "https://max.ru/minsoc_khabarovsk_inform_msp_bot",
+      "category_ids": ["social"],
+      "tags": ["льготы", "меры поддержки"]
+    },
+    {
+      "id": "bot-emotional-support",
+      "name": "Безопасный Хабаровский край",
+      "description": "Бот экстренной помощи в тяжёлых жизненных ситуациях",
+      "icon": "safe_khabarovsk.png",
+      "type": "chatbot",
+      "owner": "Правительство Хабаровского края",
+      "link": "https://max.ru/doverie27_bot",
+      "category_ids": ["social", "family"],
+      "tags": ["помощь", "поддержка"]
+    },
+    {
+      "id": "bot-karta-zhitelya-khabarovska",
+      "name": "Карта жителя Хабаровского края",
+      "description": "Бот для информирования населения о возможностях карты жителя Хабаровского края 'Муравьев-Амурский' и её получении.",
+      "icon": "karta_zhitelya.png",
+      "type": "chatbot",
+      "owner": "Правительство Хабаровского края",
+      "link": "https://max.ru/karta_zhitelya_khabarovsky_kray_bot",
+      "category_ids": ["social"],
+      "tags": ["новости", "регион"]
+    },
+    {
+      "id": "bot-dgk",
+      "name": "АО «Дальневосточная генерирующая компания»",
+      "description": "Бот принимает жалобы и обращения жителей и предприятий в регионах: Хабаровский и Приморский край, Амурская область, ЕАО, Республика Саха(Якутия).",
+      "icon": "dgk.png",
+      "type": "chatbot",
+      "owner": "АО «Дальневосточная генерирующая компания»",
+      "link": "https://max.ru/id1434031363_bot",
+      "category_ids": ["housing"],
+      "tags": ["электричество", "ДГК"]
+    },
+    {
+      "id": "bot-stratsessii",
+      "name": "Бот приёма сообщений к стратегической сессии",
+      "description": "Бот для стратегических сессий Хабаровского края",
+      "icon": "karta_zhitelya.png",
+      "type": "chatbot",
+      "owner": "Правительство Хабаровского края",
+      "link": "https://max.ru/kaluganews",
+      "category_ids": ["strateg_sessii"],
+      "tags": ["стретегические сессии"]
+    },
+    {
+      "id": "bot-doctor",
+      "name": "Доктор Миша (запись к врачу в Хабаровском крае)",
+      "description": "Цифровой помощник услуг здравоохранения Хабаровского края: запись к врачу и на телемедицинские консультации, проверка статусов записей, а также отмена записей и другое.",
+      "icon": "doctor_misha.png",
+      "type": "chatbot",
+      "owner": "Правительство Хабаровского края",
+      "link": "https://max.ru/mishakhv_bot",
+      "category_ids": ["health"],
+      "tags": ["здоровье", "регион"]
+    },
+    {
+      "id": "bot-obrazovaniye",
+      "name": "Стратегия развития образования Хабаровского края",
+      "description": "Бот для сбора обратной связи по основным направлениям Стратегии развития образования Хабаровского края",
+      "icon": "education_sessii.png",
+      "type": "chatbot",
+      "owner": "Министерство образования Хабаровского края",
+      "link": "https://max.ru/strat_sessii_obrazovanie_bot",
+      "tags": ["образование", "Стратегические сессии"],
+      "category_ids": ["education", "strateg_sessii"],
+      "popular": true
+    },
+    {
+      "id": "zashchitnik",
+      "name": "БОТ | Фонд 'Защитники Отечества' | Хабаровск",
+      "description": "Предоставление информации о мерах поддержки, льготах и иной помощи участникам СВО и членам их семей в Хабаровском крае",
+      "icon": "zashitnik.png",
+      "type": "chatbot",
+      "owner": "Правительство Хабаровского края",
+      "link": "https://max.ru/zashitniki_khv_bot",
+      "tags": ["поддержка", "льготы", "СВО"],
+      "category_ids": ["social", "family"],
+      "popular": true
+    },
+    {
+      "id": "forest-industry",
+      "name": "Чат-бот министерства лесного хозяйства и лесопереработки ХК",
+      "description": "Бот предоставляет актуальную информацию о зарегистрированном документе отправленном в Министерство по почте/курьером/электронной почте.",
+      "icon": "minles.png",
+      "type": "chatbot",
+      "owner": "Министерство лесного хозяйства и лесопереработки Хабаровского края",
+      "link": "https://max.ru/les_khabkrai_max_bot",
+      "category_ids": ["ecology"]
+    },
+    {
+      "id": "employment-trudvsem",
+      "name": "Работа в России",
+      "description": "Поиск вакансий, программы поддержки занятости и электронная запись в службу занятости.",
+      "icon": "gos_uslugi.png",
+      "type": "site",
+      "owner": "Минтруд России",
+      "link": "https://trudvsem.ru",
+      "tags": ["работа", "вакансии", "служба занятости"],
+      "category_ids": ["employment"],
+      "federal": true
+    },
+    {
+      "id": "gosuslugi",
+      "name": "Госуслуги",
+      "description": "Портал государственных услуг Российской Федерации.",
+      "icon": "gos_uslugi.png",
+      "type": "site",
+      "owner": "Минцифры России",
+      "link": "https://www.gosuslugi.ru",
+      "tags": ["госуслуги", "документы"],
+      "category_ids": ["social", "government"],
+      "popular": true,
+      "federal": true
+    },
+    {
+      "id": "dobrohab",
+      "name": "ДоброХаб",
+      "description": "Сервисы для жителей и гостей Хабаровского края",
+      "icon": "dobrohab.png",
+      "type": "site",
+      "owner": "Правительство Хабаровского края",
+      "link": "https://xn--80abbj4cbn5b.xn--p1ai/home",
+      "tags": ["госуслуги", "документы"],
+      "category_ids": ["social", "government"],
+      "popular": true,
+      "federal": true
+    },
+    {
+      "id": "khabarovsk-channel-3",
+      "name": "ХАБАРОВСКИЙ КРАЙ",
+      "description": "Новостной канал для жителей Хабаровского края",
+      "icon": "khab_kray_news.png",
+      "type": "channel",
+      "owner": "-",
+      "link": "https://max.ru/khabkrai",
+      "category_ids": ["incidents"],
+      "tags": ["новости", "власть", "регион", "анонсы"]
+    },
+    {
+      "id": "khab_municip_district",
+      "name": "Хабаровский муниципальный район",
+      "description": "Официальный канал администрации Хабаровского муниципального района",
+      "icon": "khab_municip_dist.png",
+      "type": "channel",
+      "owner": "Правительство Хабаровского края",
+      "link": "https://max.ru/id2720003873_gos",
+      "category_ids": ["social", "government"]
+    },
+    {
+      "id": "school_27",
+      "name": "Школа № 27 | Хабаровск",
+      "description": "Канал школы № 27 города Хабаровска",
+      "icon": "school_27.png",
+      "type": "channel",
+      "owner": "Школа № 27 | Хабаровск",
+      "link": "https://max.ru/id2724022242_gos",
+      "tags": ["образование"],
+      "category_ids": ["education"]
+    },
+    {
+      "id": "school_77",
+      "name": "Школа № 77 | Хабаровск",
+      "description": "Канал школы № 77 города Хабаровска",
+      "icon": "school_77.png",
+      "type": "channel",
+      "owner": "Школа № 77 | Хабаровск",
+      "link": "https://max.ru/id2724055801_gos",
+      "tags": ["образование"],
+      "category_ids": ["education"]
+    },
+    {
+      "id": "school_85",
+      "name": "Школа № 85 | Хабаровск",
+      "description": "Канал школы № 85 города Хабаровска",
+      "icon": "school_85.png",
+      "type": "channel",
+      "owner": "Школа № 85 | Хабаровск",
+      "link": "https://max.ru/id2723044275_gos",
+      "tags": ["образование"],
+      "category_ids": ["education"]
+    },
+    {
+      "id": "school_internat_1",
+      "name": "КГБОУ ШИ №1 город Хабаровск",
+      "description": "Канал школы-интернат № 1 города Хабаровска",
+      "icon": "school_internat_1.png",
+      "type": "channel",
+      "owner": "КГБОУ ШИ 1 город Хабаровск",
+      "link": "https://max.ru/id2723056425_gos",
+      "tags": ["образование"],
+      "category_ids": ["education"]
+    },
+    {
+      "id": "school_internat_4",
+      "name": "КГБОУ ШИ №4 город Хабаровск",
+      "description": "Канал школы-интернат № 4 города Хабаровска",
+      "icon": "school_internat_4.png",
+      "type": "channel",
+      "owner": "КГБОУ ШИ 4 город Хабаровск",
+      "link": "https://max.ru/id2724096798_gos",
+      "tags": ["образование"],
+      "category_ids": ["education"]
+    },
+    {
+      "id": "school_internat_6",
+      "name": "КГБОУ ШИ №6 город Хабаровск",
+      "description": "Канал школы-интернат № 6 города Хабаровска",
+      "icon": "school_internat_6.png",
+      "type": "channel",
+      "owner": "КГБОУ ШИ 6 город Хабаровск",
+      "link": "https://max.ru/id2723044130_gos",
+      "tags": ["образование"],
+      "category_ids": ["education"]
+    }
+  ],
+  "support": {
+    "centerSupport": {
+      "name": "Центр обратной связи",
+      "description": "Есть идея или столкнулись с неудобством? Напишите сюда — мы читаем всё и используем это, чтобы улучшать сервис.",
+      "link": "https://max.ru/soc_zashita_bot"
+    },
+    "techSupport": {
+      "name": "Хотите разместить ваш сервис или изменить уже существующий?",
+      "description": "ТехПоддержка27 — единый сервис поддержки цифровых сервисов региона. Решение технических проблем, актуализация информации о сервисах и размещение новых сервисов на нашей площадке.",
+      "link": "https://max.ru/tech_pod_27_bot"
+    }
+  },
+  "analytics": {
+    "mytracker": {
+      "enabled": true,
+      "trackerId": "3755075"
+    },
+    "yandexMetrika": {
+      "enabled": true,
+      "counterId": "85500886"
+    }
+  }
+}
